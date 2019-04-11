@@ -361,6 +361,7 @@ header .head-top .top-menu ul li.active .btn {
 .section.about .image img {
   width: 100px;
   height: 100px;
+  border: 2px solid #f26b38;
   border-radius: 100px;
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
