@@ -54,8 +54,6 @@
 				<div class="top-menu">
 					<ul>
 						<li><a href="index.html" class="lnk">Home</a></li>
-						<li><a href="#resume-section" class="lnk">Resume</a></li>
-						<li><a href="portfolio.html" class="lnk">Projects</a></li>
 						<li><a href="contacts.html" class="btn">Contacts</a></li>
 					</ul>
 				</div>
@@ -110,7 +108,7 @@
 						</div>
 					</div>
 					<div class="contact_form">
-						<form id="cform" method="post">
+						<form action="mailer/mail.php" method="POST" id="form">
 							<div class="group-val">
 								<input type="text" name="name" placeholder="Name" />
 							</div>
@@ -120,13 +118,8 @@
 							<div class="group-val ct-gr">
 								<textarea name="message" placeholder="Message"></textarea>
 							</div>
-							<a href="#" class="btn fill" onclick="$('#cform').submit(); return false;" data-text="Send Message">Send Message</a>
+							<input type="submit" class="btn fill" onclick="return true;" value="Send Message">
 						</form>
-						<div class="alert-success">
-							<p>
-								Thanks, your message is sent successfully. We will contact you shortly!
-							</p>
-						</div>
 					</div>
 				</div>
 			</div>

@@ -748,6 +748,7 @@ header .head-top .top-menu ul li.active .btn {
 
 .box-items .box-item .image {
   position: relative;
+  border: 2px solid #f26b38;
 }
 
 .box-items .box-item .image a {
