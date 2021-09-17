@@ -1,2 +1,2 @@
 # davidecividini-site
-My personal website (http://davidecividini.altervista.org/)
+My personal website (http://davidecividini.it/)
